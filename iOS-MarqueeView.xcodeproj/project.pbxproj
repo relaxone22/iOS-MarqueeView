@@ -13,6 +13,7 @@
 		C283C5E7282220E1000881C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C283C5E5282220E1000881C5 /* Main.storyboard */; };
 		C283C5E9282220E3000881C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C283C5E8282220E3000881C5 /* Assets.xcassets */; };
 		C283C5EC282220E3000881C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C283C5EA282220E3000881C5 /* LaunchScreen.storyboard */; };
+		C283C5F528222297000881C5 /* SHMarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C283C5F428222297000881C5 /* SHMarqueeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C283C5E8282220E3000881C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C283C5EB282220E3000881C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C283C5ED282220E3000881C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C283C5F428222297000881C5 /* SHMarqueeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHMarqueeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C283C5DE282220E1000881C5 /* iOS-MarqueeView */ = {
 			isa = PBXGroup;
 			children = (
+				C283C5F328222254000881C5 /* MarqueeView */,
 				C283C5DF282220E1000881C5 /* AppDelegate.swift */,
 				C283C5E1282220E1000881C5 /* SceneDelegate.swift */,
 				C283C5E3282220E1000881C5 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				C283C5ED282220E3000881C5 /* Info.plist */,
 			);
 			path = "iOS-MarqueeView";
+			sourceTree = "<group>";
+		};
+		C283C5F328222254000881C5 /* MarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				C283C5F428222297000881C5 /* SHMarqueeView.swift */,
+			);
+			path = MarqueeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C283C5F528222297000881C5 /* SHMarqueeView.swift in Sources */,
 				C283C5E4282220E1000881C5 /* ViewController.swift in Sources */,
 				C283C5E0282220E1000881C5 /* AppDelegate.swift in Sources */,
 				C283C5E2282220E1000881C5 /* SceneDelegate.swift in Sources */,
